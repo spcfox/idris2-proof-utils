@@ -1,0 +1,30 @@
+package proof-utils
+version = 0.0.1
+authors = "Viktor Yudov"
+
+sourcedir = "src"
+
+depends = typelevel-emptiness-collections
+
+modules = Control.Relation.Interchange
+        , Control.Relation.TransitiveClojure
+        , Control.Applicative.LawfulApplicative
+        , Control.Foldable.Elem
+        , Control.Foldable.LawfulFoldable
+        , Control.Foldable.Quantifiers
+        , Control.Functor.LawfulFunctor
+        , Control.Functor.LawfulFoldableFunctor
+        , Control.Monoid.LawfulMonoid
+        , Control.Semigroup.LawfulSemigroup
+        , Control.Traversable.LawfulTraversable
+        , Data.CheckedEmpty.List.Lazy.Properties
+        , Data.DPair.Extra
+        , Data.List.Elem.Properties
+        , Data.List.Properties
+        , Data.List.Utils
+        , Data.List.Quantifiers.Properties
+        , Data.Maybe.Properties
+        , Data.Maybe.Properties
+        , Data.Pair.Properties
+        , Data.So.Utils
+        , Syntax.WithProof.Extra
